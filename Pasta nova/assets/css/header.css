@@ -1,0 +1,38 @@
+.menu-hambuguer{
+    background-image: url("../img/Menu.svg");
+    width: 24px ;
+    height: 24px;
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+
+}
+.menu-hambuguer{
+    width: 24px;
+    height: 24px;
+    background-image: menu;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.menu-lista{
+    display: none;
+
+}
+.seletor-menu:checked ~ .menu-lista{
+    display: block;
+}
+.menu-lista, .menu-lista-item{
+    background-color: white;
+    padding: 1em;
+
+}
+
+.menu-lista-titulo{
+    color: var(--laraja)_
+}
+
