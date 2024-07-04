@@ -36,3 +36,9 @@
     color: var(--laraja)_
 }
 
+.menu-lista-link{background: var(--azul-oleg--);
+(--webkit-background-clip): text;
+background-clip: text;
+text-transformation: uppercase;
+
+}
